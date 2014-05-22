@@ -14,12 +14,22 @@ public class FlowControl01 {
     
     
     public static void main(String[] args) {
-        int x = 3; // single = sign is assigment
-        if(x == 3){// double = sign (==) comparador
-            System.out.println("true");    
-        }else{
-            System.out.println("false");
+        
+        int x = 5;
+        
+        if( x == 1){
+            System.out.println(x);
+        }else if(x == 2){
+            System.out.println(x);
+        }else if(x == 3){
+            System.out.println(x);
+        }else if(x == 4){
+            System.out.println(x);
+        }else if(x > 5){
+            System.out.println("x: "+x);
         }
+        
+   
     }
     
 }
