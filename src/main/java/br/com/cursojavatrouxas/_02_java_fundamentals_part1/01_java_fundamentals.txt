@@ -1,0 +1,19 @@
+
+
+
+
+            FUNDAMENTOS DA LINGUAGEM JAVA PART 1
+
+01 - APLICAÇÃO JAVA BASICA
+02 - O METODO main(String[] args)
+03 - SINTAXE JAVA
+
+        - Statements
+        - Comentarios  : single & multiplo
+        - keywords (palavras chave)  obs: vc nao pode utilizar estas palavras fora de sua definicoes de utilizacao.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

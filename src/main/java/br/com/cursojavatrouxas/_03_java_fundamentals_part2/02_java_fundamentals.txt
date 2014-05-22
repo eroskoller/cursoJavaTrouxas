@@ -1,0 +1,55 @@
+        
+
+
+
+            FUNDAMENTOS DA LINGUAGEM JAVA PART 2
+
+01  -   ENTENDENDO O TIPOS DADOS EM JAVA
+02  -   DECLARANDO VARIAVEIS
+03  -   Operadores & Atribuições
+04  -   Variavel de Escopo
+05  -   Modificadores de Acesso & keywords
+06  -   Casting & Conversions
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Data Type / Tipos de Dados
+        01.1  -   Primitive Data Types / tipos primitivos
+        01.2  -   User defined Data type / difinidos pelo Usuário   /compostos - Objetos
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+Declarando Variaveis
+
+    -   Onde declarar variveis   (class "field"/metodo"local")
+            ... dentro da classe 
+        "inicializada com valores padrão"
+            ... dentro do metodo
+            variavel local / variavel de escopo 
+            "não inicializada com valores padrão"
+
+           * Regras para declarar uma variavel
+
+           01 - espaço em branco entra não é aceito
+           02 - case sensitive 
+           03 - deve começar com uma letra ou _ ou $
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+   
+
+
+
+     
+
+
+
+
+
+
+        

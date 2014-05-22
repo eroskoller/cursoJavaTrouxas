@@ -1,0 +1,32 @@
+- Java Syntax  (Sintaxe Java)
+
+Case Sensitive
+
+public class Demo1{}
+
+public class demo1{}
+
+ - Statements(afirmacao) termeinam c "ponto e virgura"  ;;;;;;
+
+    System.out.println("Hello world......");
+
+ -  Keyword usage (Utilização de palavras chave "reservadas")
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fundamentos da Linguagem Java
+
+01 - O basico de uma aplicacao Java
+02 - O metodo main(){}  
+03 - Sintaxe Java
+
+    *Statements
+    *Comentarios
+    *Keywords
+    
+
+    ---------------------------------------------------------------- End -----------------------------------------------------------------------------

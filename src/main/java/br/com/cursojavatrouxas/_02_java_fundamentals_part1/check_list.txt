@@ -1,0 +1,25 @@
+-   criar uma classe Demo 
+Neste momento do jogo tudo que nos fizermos, escrevermos em java vive em uma construcao especial chamada "class" , 
+Java eh uma linguagem Orientada ao Objeto e nos iremos falar muito sobre isso, em linguagem OOP utilizam "classes"
+
+Classes sao a base p os Objetos , Receita de bolo a Planta p construcao de um Objeto.
+- Nos nao realmente vemos os Objetos , nos os utilizamos uma vez que eles estao em memoria.
+- Nos criamos uma receita p que a maquina virtual crie o Objeto, todo aplicativo em java tem pelo menos uma classe.
+
+
+Classes 
+Quase tudo fica entre "chaves {}"  , vc pode ter qts classes vc quizer dentro de um arquivo , mas pelo menos uma delas tem que se "public" e apenas uma tem que ser "public".
+
+- Como que nomeio uma classe , $ , _ ou letra  e "case sensitive"  "letras maiusculas e minusculas"
+- Para cada classe criada no arquivo , uma arquivo correspondente sera criado.
+
+
+Main Metodo
+- public 
+- static  : Static doesn't quite mean "shared by all instances" - it means "not related to a particular instance at all". 
+- void
+- String[]
+
+
+Statements / Methods
+ ;;;;;;;
