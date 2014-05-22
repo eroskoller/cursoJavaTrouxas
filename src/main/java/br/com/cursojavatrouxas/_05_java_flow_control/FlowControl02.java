@@ -13,11 +13,12 @@ public class FlowControl02 {
 
     public static void main(String[] args) {
 
-        int x = 3;
+        int x = 1;
 
         switch (x) {
             case 1:
                 System.out.println("ronaldo.....1");
+                    vaiRonaldo(x);
                 break;
             case 2:
                 System.out.println("ronaldo.....2");
@@ -35,6 +36,10 @@ public class FlowControl02 {
                     System.out.println("default.....  sem ronaldo ......");
         }
 
+    }
+
+    private static void vaiRonaldo(int x) {
+        System.out.println("Ronaldo foi   x = "+x);
     }
 
 }
