@@ -25,7 +25,7 @@ public class FlowControl01 {
             System.out.println(x);
         }else if(x == 4){
             System.out.println(x);
-        }else if(x > 5){
+        }else if(x == 5){
             System.out.println("x: "+x);
         }
         
