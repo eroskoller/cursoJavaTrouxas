@@ -13,12 +13,12 @@ public class FlowControl02 {
 
     public static void main(String[] args) {
 
-        int x = 1;
+        int codigo_convenio = 1;
 
-        switch (x) {
+        switch (codigo_convenio) {
             case 1:
                 System.out.println("ronaldo.....1");
-                    vaiRonaldo(x);
+                vaiRonaldo(codigo_convenio);
                 break;
             case 2:
                 System.out.println("ronaldo.....2");
@@ -32,14 +32,14 @@ public class FlowControl02 {
             case 5:
                 System.out.println("ronaldo.....5");
                 break;
-                default:
-                    System.out.println("default.....  sem ronaldo ......");
+            default:
+                System.out.println("default.....  sem ronaldo ......");
         }
 
     }
 
     private static void vaiRonaldo(int x) {
-        System.out.println("Ronaldo foi   x = "+x);
+        System.out.println("Ronaldo foi   x = " + x);
     }
 
 }
