@@ -27,10 +27,27 @@ public class Casting {
         
 //        System.out.println(s2);
         
-        short s1 = 32767;
+//        short s1 = 32767;
+//        
+//        byte b2 = (byte)s1;
+//        System.out.println(b2);
         
-        byte b2 = (byte)s1;
+        
+//        byte b1 = 127;
+//        
+//        short s1 = b1;
+//        
+//        System.out.println(s1);
+        
+        
+        
+        short s2 = 32700;
+        
+        byte b2 = (byte) s2;
+        
         System.out.println(b2);
+        
+        
         
         
     }

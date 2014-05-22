@@ -26,6 +26,8 @@ Multi line comments
 public class Demo {
     public static void main(String[] args) throws IOException {
         //single line coments
+        System.out.println("hello world .....");
+        
     }
             
 }

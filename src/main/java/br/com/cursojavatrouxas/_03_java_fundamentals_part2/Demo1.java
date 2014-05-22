@@ -19,8 +19,8 @@ public class Demo1 {
     int $_X ;
     
     
-    private int xx = 0;
-    protected int xxProc = 0;
+    private int xx = 0; //field /// campo
+    int xxProc = 0;
     public int xPublic = 0;
     
     public static int minhaIdade = 37;
@@ -28,9 +28,9 @@ public class Demo1 {
     public static boolean isMeuBoolean1 ;
     
     public static void main(String[] args) {
-        int y = 0; //local variables
-        int Y;
-        
+//        int y = 0; //local variables
+//        int Y;
+//        
 //        System.out.println("y:   "+y);
 //        System.out.println("minhaIdade : "+minhaIdade);
 //        System.out.println("isMeuBoolean1 : "+isMeuBoolean1);
@@ -40,6 +40,10 @@ public class Demo1 {
         
 //        System.out.println(8/3);
 //        System.out.println(8%3);
+        
+        
+        
+        
     }
     
 }
