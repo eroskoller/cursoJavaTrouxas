@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package br.com.cursojavatrouxas._08_using_arrays;
+package br.com.cursojavatrouxas._07_using_arrays;
 
 /**
  *

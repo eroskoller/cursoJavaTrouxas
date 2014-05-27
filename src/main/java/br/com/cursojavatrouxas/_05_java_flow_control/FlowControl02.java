@@ -12,34 +12,18 @@ package br.com.cursojavatrouxas._05_java_flow_control;
 public class FlowControl02 {
 
     public static void main(String[] args) {
-
-        int codigo_convenio = 1;
-
-        switch (codigo_convenio) {
-            case 1:
-                System.out.println("ronaldo.....1");
-                vaiRonaldo(codigo_convenio);
+        int i = 0;
+        while(true){
+            i++;
+            if(i == 5){
+            }else if(i == 10) {
                 break;
-            case 2:
-                System.out.println("ronaldo.....2");
-                break;
-            case 3:
-                System.out.println("ronaldo.....3");
-                break;
-            case 4:
-                System.out.println("ronaldo.....4");
-                break;
-            case 5:
-                System.out.println("ronaldo.....5");
-                break;
-            default:
-                System.out.println("default.....  sem ronaldo ......");
+            }else{
+                System.out.println("i = "+i);
+            }
         }
-
-    }
-
-    private static void vaiRonaldo(int x) {
-        System.out.println("Ronaldo foi   x = " + x);
+        
+            System.out.println(">>>>>   Fim     <<<<<<");
     }
 
 }
