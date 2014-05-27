@@ -17,6 +17,10 @@ public class ArrayDemo1 {
         String meuDog  = "Marok";
         String minhaGata = "Fifi";
         String meuGato = "Fifao";
+
+//        Oque é uma Array ?
+//        Array é um objeto que tem a capacidade de guardar multiplos valores/objetos .
+        
         
         //Declarando Array    Regras
         // 01  Object
