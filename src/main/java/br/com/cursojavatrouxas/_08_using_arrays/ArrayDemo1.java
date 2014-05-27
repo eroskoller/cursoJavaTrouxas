@@ -36,10 +36,11 @@ public class ArrayDemo1 {
 //            System.out.println("Pet name = "+meusPets[i]);
 //        }
         
-        String[] meusPets = {"Marok","Fifi","Fifao","Sky","Popo","Sultao"};
-        for (String string : meusPets) {
-            System.out.println(string);
-        }
+//        String[] meusPets = {"Marok","Fifi","Fifao","Sky","Popo","Sultao"};
+//        for (String string : meusPets) {
+//            System.out.println(string);
+//        }
+        
         
         
     }
