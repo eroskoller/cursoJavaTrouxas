@@ -6,21 +6,39 @@
 
 package br.com.cursojavatrouxas._09_oop_part1;
 
+import java.io.Serializable;
+
 /**
  *
  * @author eros
  * knight
  */
-public class Warrior {
+public class Warrior  extends PersonagemTibia implements  Serializable{
     
-    String nome = "DorGobid kiro";
-    String arma = "Espada";
-    String shield = "Dragon Shield";
+    
     String sword = "100";
-    String mana = "10";
     
+
+    public Warrior() {
+    }
+
+    public Warrior(String nome ,String arma ,String shield ,String sword ,String mana) {
+        this.nome = nome;
+        this.arma = arma;
+        this.shield = shield;
+        this.sword = sword;
+        this.mana = mana;
+    }
+    
+    
+    
+    
+    
+    
+    
+    @Override
     public void defesa(){
-        System.out.println("DorGobid kiro  defende usando a sua fantastica "+shield);
+        System.out.println(this.nome+" defende usando a sua fantastica "+shield);
     }
     
     public void luta(){
