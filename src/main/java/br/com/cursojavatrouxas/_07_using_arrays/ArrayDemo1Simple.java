@@ -13,6 +13,7 @@ package br.com.cursojavatrouxas._07_using_arrays;
 public class ArrayDemo1Simple {
     
     public static void main(String[] args) {
+        
         String[] arrayPets = {"Sky","Popo","Sultao","Fifi","Fifo","Marok"};
         
         for (int i = 0; i < arrayPets.length; i++) {
