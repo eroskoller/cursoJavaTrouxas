@@ -6,6 +6,9 @@
 
 package br.com.cursojavatrouxas._09_oop_part1;
 
+import br.com.cursojavatrouxas._11_wk_w_math_and_dt.DemoDateRange;
+import java.util.Date;
+
 /**
  *
  * @author eros
@@ -33,11 +36,11 @@ public class UsarPessoa {
                 pacMaria.arrayReceitaMedica = arrayReceitaMedica;
                 
                 
-                pacMaria.comer();
-                
-                Pessoa mariaPac =(Pessoa) pacMaria;
-                
-                mariaPac.comer();
+//                pacMaria.comer();
+//                
+//                Pessoa mariaPac =(Pessoa) pacMaria;
+//                
+//                mariaPac.comer();
                 
 //                for (int i = 0; i < pacMaria.arrayReceitaMedica.length; i++) {
 //                        ReceitaMedica rm = pacMaria.arrayReceitaMedica[i];
@@ -59,7 +62,7 @@ public class UsarPessoa {
 //                                System.out.println(m.toString());
 //                        }
 //                }
-
+                
     }
     
 }
