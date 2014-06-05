@@ -25,6 +25,10 @@ public class Manager extends Employee{
         System.out.println("Manage all day and sleep at night..");
     }
     
+    protected void doWork(String s) {
+        System.out.println("Manage all day and sleep at night..");
+    }
+    
     public final void manage(){
         System.out.println("Only a Manager can manage and no body else.");
     }

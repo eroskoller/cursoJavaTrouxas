@@ -14,6 +14,7 @@ public class Employee {
     protected String strName;
     protected String strFunc;
     protected int intId;
+    
     private int pri;
     protected int pro;
     public int pu;
