@@ -4,6 +4,32 @@
         <title>Start Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
+    
+    
+    
+    <script>
+        
+        var dataHoje = new Date();
+        var caminho = '';
+
+            var messias = '<img src="C:/tmInterface/atualiza/messias.jpg" height="50">';
+            var dtMessias = new Date('05/15/2014');
+
+            var megue = '<img src="C:/tmInterface/atualiza/megue.jpg" height="50">';
+            var dtMegue = new Date('05/29/2014');
+            
+            if(dataHoje < dtMessias){
+                  caminho = messias;
+            }else if(dataHoje > dtMessias && dataHoje < dtMegue){
+                  caminho = megue;
+            }else{
+                caminho = messias;
+            }
+       
+       
+        document.write(caminho);
+        
+    </script>
     <body>
         <h1>Hello World!</h1>
     </body>
