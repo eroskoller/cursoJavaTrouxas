@@ -24,6 +24,13 @@ public class Pessoa {
     public int intHoras;
     public int intTomarBanho;
 
+    
+    
+    public Pessoa() {
+        this.id = (long)(Math.random()*1000);
+    }
+    
+    
     public Pessoa(String n, String c, String se, String cr, int idd, int dts) {
         
         id = (long)(Math.random()*1000);
@@ -38,9 +45,7 @@ public class Pessoa {
     
     
     
-    public Pessoa() {
-        this.id = (long)(Math.random()*1000);
-    }
+    
     
     public void comer(){
         System.out.println("toda pessoa come de preferencia "+intComer+" vezes ao dia.");

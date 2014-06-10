@@ -34,13 +34,14 @@ public class UsarPessoa {
                 Medicamentos[] arrMedicamentoses  = {new Medicamentos("diazepan"),new Medicamentos("aspirina")};
                 ReceitaMedica[] arrayReceitaMedica = {new ReceitaMedica(arrMedicamentoses)};
                 pacMaria.arrayReceitaMedica = arrayReceitaMedica;
+
+                Pessoa mariaPac =(Pessoa) pacMaria;
                 
-                
-//                pacMaria.comer();
-//                
-//                Pessoa mariaPac =(Pessoa) pacMaria;
-//                
-//                mariaPac.comer();
+                if(mariaPac instanceof Paciente){
+                    System.out.println("mariaPac e um paciente");
+                }else if(mariaPac instanceof Pessoa){
+                    System.out.println("mariaPac e uma pessoa");
+                }
                 
 //                for (int i = 0; i < pacMaria.arrayReceitaMedica.length; i++) {
 //                        ReceitaMedica rm = pacMaria.arrayReceitaMedica[i];

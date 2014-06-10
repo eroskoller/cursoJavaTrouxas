@@ -33,6 +33,9 @@ public class Paciente extends Pessoa{
     public void comer() {
         System.out.println("todo paciente come a droga da comida do hospital.");
     }
+    public void comerLikePessoa() {
+        super.comer();
+    }
     
 
     
