@@ -12,13 +12,19 @@ package br.com.cursojavatrouxas._09_oop_part1;
  */
 public class Moto extends AutoMovel{
 
-    @Override
-    public void movimentar() {
-        System.out.println("Moto anda sobre duas rodas e entre carros.");
+    public Moto() {
+        this.pneus = 2;
+        this.lugares = 2;
     }
     
-    public void cai(){
-        System.out.println("Somente motos caem de bobeira.");
+    
+    
+    public void caiDeBobeira(){
+        System.out.println("Toda moto uma hora cai de bobeira.");
+    }
+    
+    public void facilDeAndarNoTransito(){
+        System.out.println("Toda moto tem a facilidade de andar no transito usando os corredores..");
     }
     
 }
