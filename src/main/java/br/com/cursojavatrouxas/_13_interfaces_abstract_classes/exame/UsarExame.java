@@ -31,21 +31,21 @@ public class UsarExame {
         
         for (Exame exame : listaDeExames) {
             
-//            if(exame instanceof Soro){
-//                System.out.println("Mande essa porra p o Advia");
-//            }else if(exame instanceof Plasma){
-//                System.out.println("Mande essa porra p o Modular");
-//            }else if(exame instanceof Urina){
-//                System.out.println("Mande essa porra p o Urisys");
-//            }else if(exame instanceof Fezes){
-//                System.out.println("Alguem vai bater bosta..");
-//            }
+            if(exame instanceof Soro){
+                System.out.println("Mande essa porra p o Advia");
+            }else if(exame instanceof Plasma){
+                System.out.println("Mande essa porra p o Modular");
+            }else if(exame instanceof Urina){
+                System.out.println("Mande essa porra p o Urisys");
+            }else if(exame instanceof Fezes){
+                System.out.println("Alguem vai bater bosta..");
+            }
             
 //            exame.coleta();
             
-            if(exame instanceof Exame){
-                exame.coleta();
-            }
+//            if(exame instanceof Exame){
+//                exame.coleta();
+//            }
             
         }
         
