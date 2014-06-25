@@ -75,9 +75,13 @@ public class DemoDateRange implements Serializable{
         }
         
     }
-    
-    
-    public static Long[] elapsedTimeBtwDatesComplete(Date dtStart,Date dtEnd){
+    /**
+     * 
+     * @param dtStart  eh o dia menor p o calculo
+     * @param dtEnd eh o dia maior p o calculo
+     * @return   a diferenfa entrer datas
+     */
+        public static Long[] elapsedTimeBtwDatesComplete(Date dtStart,Date dtEnd){
         
         long l1 = dtStart.getTime();
         long l2 = dtEnd.getTime();
@@ -102,7 +106,12 @@ public class DemoDateRange implements Serializable{
         return array;
     }
     
-    
+        /**
+         * 
+         * @param dtStart
+         * @param dtEnd
+         * @return 
+         */
     public static long elapsedTimeBtwDatesYears(Date dtStart,Date dtEnd){
         return  elapsedTimeBtwDatesComplete(dtStart, dtEnd)[0];
     }
