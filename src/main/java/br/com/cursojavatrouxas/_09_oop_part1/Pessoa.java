@@ -30,7 +30,15 @@ public class Pessoa {
         this.id = (long)(Math.random()*1000);
     }
     
-    
+    /**
+     * 
+     * @param nome
+     * @param cabelo
+     * @param sexo
+     * @param cor da pele
+     * @param idade
+     * @param qt de dentes
+     */
     public Pessoa(String n, String c, String se, String cr, int idd, int dts) {
         
         id = (long)(Math.random()*1000);
