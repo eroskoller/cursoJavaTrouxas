@@ -6,24 +6,30 @@
 
 package br.com.cursojavatrouxas._14_collections;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 /**
  *
  * @author eros
  */
-public class MeuObj {
+public class MeuObj implements Comparable<MeuObj>{
 
     private String nome;
     private String desc;
+    private int codigo;
+    
 
     public MeuObj() {
     }
 
-    public MeuObj(String nome, String desc) {
+    public MeuObj(String nome, String desc, int codigo) {
         this.nome = nome;
         this.desc = desc;
+        this.codigo = codigo;
     }
+
+    
 
     public String getNome() {
         return nome;
@@ -39,6 +45,14 @@ public class MeuObj {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 
    
@@ -67,9 +81,35 @@ public class MeuObj {
 
     @Override
     public String toString() {
-        return "MeuObj{" + "nome=" + nome + ", desc=" + desc + '}';
+        return "MeuObj{" + "nome=" + nome + ", desc=" + desc + ", codigo=" + codigo + '}';
+    }
+
+    
+
+    @Override
+    public int compareTo(MeuObj o) {
+        return this.getNome().compareTo(o.getNome());
     }
     
+    
+    public static final Comparator  COMPARADOR_DESCRICAO  = new Comparator<MeuObj>(){
+        @Override
+        public int compare(MeuObj o1, MeuObj o2) {
+            return o1.getDesc().compareTo(o2.getDesc());
+        }
+    };
+    
+    public static final Comparator  COMPARADOR_CODIGO  = new Comparator<MeuObj>(){
+        @Override
+        public int compare(MeuObj o1, MeuObj o2) {
+            
+            if(o1.getCodigo() == o2.getCodigo()){
+                return  0;
+            }else{
+                return -1;
+            }
+        }
+    };
     
     
 }
