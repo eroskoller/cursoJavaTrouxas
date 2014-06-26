@@ -6,11 +6,14 @@
 
 package br.com.cursojavatrouxas._09_oop_part1;
 
+import java.util.Comparator;
+import java.util.Objects;
+
 /**
  *
  * @author eros
  */
-public class Pessoa {
+public class Pessoa implements Comparable<Pessoa>{
     
     private long id;
     protected String nome;
@@ -72,4 +75,58 @@ public class Pessoa {
         return "Pessoa{" + "nome=" + nome + ", cabelo=" + cabelo + ", sexo=" + sexo + ", cor=" + cor + ", idade=" + idade + ", dentes=" + dentes + '}';
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 83 * hash + Objects.hashCode(this.nome);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Pessoa other = (Pessoa) obj;
+        if (!Objects.equals(this.nome, other.nome)) {
+            return false;
+        }
+        return true;
+    }
+
+    
+     public static final Comparator ComparatorPessoaNome = new Comparator() {
+         Pessoa p1 = null;
+         Pessoa p2 = null;
+        @Override
+        public int compare(Object o1, Object o2) {
+            if(o1 instanceof Pessoa){
+                p1 = (Pessoa) o1;
+            }
+            if(o2 instanceof Pessoa){
+                p2 = (Pessoa) o2;
+            }
+            return p1.getNome().compareTo(p2.getNome());
+        }
+    };
+
+    @Override
+    public int compareTo(Pessoa o) {
+        return this.getNome().compareTo(o.getNome());
+    }
+
+   
+    
+    
 }
