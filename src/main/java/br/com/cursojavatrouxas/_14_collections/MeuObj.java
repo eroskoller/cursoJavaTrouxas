@@ -102,12 +102,20 @@ public class MeuObj implements Comparable<MeuObj>{
     public static final Comparator  COMPARADOR_CODIGO  = new Comparator<MeuObj>(){
         @Override
         public int compare(MeuObj o1, MeuObj o2) {
+               Integer i1 = new Integer(o1.getCodigo());
+                Integer i2 = new Integer(o2.getCodigo());
             
-            if(o1.getCodigo() == o2.getCodigo()){
-                return  0;
-            }else{
-                return -1;
-            }
+           return  i1.compareTo(i2);
+        }
+    };
+    
+    public static final Comparator  COMPARADOR_CODIGO_REVERSO  = new Comparator<MeuObj>(){
+        @Override
+        public int compare(MeuObj o1, MeuObj o2) {
+               Integer i1 = new Integer(o1.getCodigo());
+                Integer i2 = new Integer(o2.getCodigo());
+            
+           return  i2.compareTo(i1);
         }
     };
     

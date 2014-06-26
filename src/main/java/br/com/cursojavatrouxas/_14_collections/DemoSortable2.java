@@ -33,7 +33,7 @@ public class DemoSortable2 {
         
         
         List<MeuObj> listMeuObj = new ArrayList<>(mapMeuObj.values());
-        Collections.sort(listMeuObj,MeuObj.COMPARADOR_CODIGO);
+        Collections.sort(listMeuObj,MeuObj.COMPARADOR_CODIGO_REVERSO);
         
         for (MeuObj meuObj : listMeuObj) {
             System.out.println(meuObj);
