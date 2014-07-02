@@ -33,8 +33,9 @@ public class DemoSortable2 {
         
         
         List<MeuObj> listMeuObj = new ArrayList<>(mapMeuObj.values());
-        Collections.sort(listMeuObj,MeuObj.COMPARADOR_CODIGO_REVERSO);
-        
+        Collections.sort(listMeuObj,MeuObj.COMPARADOR_CODIGO);
+        Collections.reverse(listMeuObj);
+        Collections.sort(listMeuObj);
         for (MeuObj meuObj : listMeuObj) {
             System.out.println(meuObj);
         }
